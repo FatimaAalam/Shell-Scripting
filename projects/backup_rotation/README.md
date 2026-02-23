@@ -37,18 +37,18 @@ chmod +x backup.sh
 ```
 ## Requirements
 
--Linux / Ubuntu
--zip installed:
+- Linux / Ubuntu
+- zip installed:
 ```bash
 sudo apt install zip -y
 ```
-##How It Works
+## How It Works
 
--Checks if source and backup directories are provided
--Creates a timestamped backup zip in the backup directory
--Deletes backups older than 5 days automatically
+- Checks if source and backup directories are provided
+- Creates a timestamped backup zip in the backup directory
+- Deletes backups older than 5 days automatically
 
 ## Notes
 
--The script will create the backup directory if it does not exist
--Can be run multiple times; old backups are rotated
+- The script will create the backup directory if it does not exist
+- Can be run multiple times; old backups are rotated
